@@ -18,7 +18,7 @@ jobs:
 
     - name: Download Katalon
       run: |
-        wget https://github.com/katalon-studio/katalon/releases/download/v9.0.0/Katalon_Studio_Linux_64-9.0.0.tar.gz
+        wget https://github.com/katalon-studio/katalon/releases/download/v9.0.0/Katalon_Studio_Linux_64-10.1.0.tar.gz
         tar -xvf Katalon_Studio_Linux_64-9.0.0.tar.gz
 
     - name: Run Katalon Test
