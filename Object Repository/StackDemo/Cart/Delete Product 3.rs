@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Delete Product 3</name>
+   <tag></tag>
+   <elementGuidId>9366eda7-5a9b-4b79-a038-23a5871224b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.shelf-item.shelf-item--mouseover > div.shelf-item__del</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[2]/div[2]/div[2]/div[3]/div&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>168000c5-7dbf-4fb3-8663-cdcbbfe848fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shelf-item__del</value>
+      <webElementGuid>670a556b-fc43-481a-b3ef-671916820c1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;App&quot;]/div[@class=&quot;float-cart float-cart--open&quot;]/div[@class=&quot;float-cart__content&quot;]/div[@class=&quot;float-cart__shelf-container&quot;]/div[@class=&quot;shelf-item shelf-item--mouseover&quot;]/div[@class=&quot;shelf-item__del&quot;]</value>
+      <webElementGuid>34fc75ec-80ef-4004-b696-0d1ef5487a9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[2]/div[2]/div[2]/div[3]/div</value>
+      <webElementGuid>7ea5d4d4-640b-47c6-a277-dd3bdfef589a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[3]/div</value>
+      <webElementGuid>27051ef9-0bd1-4d9f-9b76-60d97c7cac99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

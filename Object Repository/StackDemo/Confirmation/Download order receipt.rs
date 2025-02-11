@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Download order receipt</name>
+   <tag></tag>
+   <elementGuidId>1722f366-a1f0-4cc3-ba13-d6f9725e97f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='downloadpdf']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#downloadpdf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3a2a8776-19e2-4afa-aae9-0f9daae0d08e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>downloadpdf</value>
+      <webElementGuid>85a504cb-f84a-4312-9e5b-6c1e851d51ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>underline cursor-pointer</value>
+      <webElementGuid>611dc666-e4a0-4e25-b372-3147969059a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download order receipt</value>
+      <webElementGuid>a9bbd5b0-7484-4b6e-b138-c166c579f0b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;downloadpdf&quot;)</value>
+      <webElementGuid>086fc8ce-d2cb-4397-877d-0689eb00f110</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='downloadpdf']</value>
+      <webElementGuid>60bf35e9-3ecc-4831-a95d-aa9aba17fb75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-app']/div/div/div/ol/li/div/div/div[2]/a</value>
+      <webElementGuid>6b947576-11be-4ee3-a0ff-bed81b966874</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Download order receipt')]</value>
+      <webElementGuid>7bad8b6f-9e98-485d-bed1-dc933f4999ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Order has been successfully placed.'])[1]/following::a[1]</value>
+      <webElementGuid>dcc24939-6b20-4c72-aa96-0c33bd81b7b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping »'])[1]/preceding::a[1]</value>
+      <webElementGuid>03b69a1e-1578-451d-8a33-9a95b62168eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::a[2]</value>
+      <webElementGuid>d1ba5829-ddbf-4603-aee8-d81b31c88a8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download order receipt']/parent::*</value>
+      <webElementGuid>0c77f0e2-4251-4568-b828-a16125cf3635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>eac3846d-63f7-4a49-84af-b041435ae87b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'downloadpdf' and (text() = 'Download order receipt' or . = 'Download order receipt')]</value>
+      <webElementGuid>7451ba6a-31e7-48b3-b09f-9465dd173085</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

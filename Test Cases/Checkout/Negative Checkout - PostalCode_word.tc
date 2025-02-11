@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Checkout - PostalCode_word</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>815fb23f-2841-4a9a-b7c3-cea8d54688f6</testCaseGuid>
+</TestCaseEntity>

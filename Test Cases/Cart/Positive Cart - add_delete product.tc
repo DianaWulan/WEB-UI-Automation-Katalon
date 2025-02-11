@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cart - add_delete product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d7ce892-4ecb-41fa-a7e4-fecdaa66d3d2</testCaseGuid>
+</TestCaseEntity>
