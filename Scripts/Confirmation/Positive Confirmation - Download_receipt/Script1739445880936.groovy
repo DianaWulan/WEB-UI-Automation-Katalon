@@ -16,12 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-// Product page
-// Cart
-//Checkout
-// Confirmation
-// Verify download file
 import java.nio.file.*
 
 WebUI.openBrowser('')

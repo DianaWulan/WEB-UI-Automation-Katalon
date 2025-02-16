@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>46a76042-d2dc-46eb-96c6-e19d98e92ac4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/Negative Checkout - Address_word</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4b099f54-5ec5-41c0-9240-ffa2180eaa3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

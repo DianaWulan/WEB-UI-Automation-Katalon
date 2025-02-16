@@ -18,4 +18,11 @@
       <testCaseId>Test Cases/Confirmation/Positive Confirmation - Download_receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>39f3314d-063c-4fb1-90bd-0ead81b71419</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Confirmation/Positive Confirmation - ContinueShopping</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
