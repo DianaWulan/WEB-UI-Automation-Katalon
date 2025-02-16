@@ -36,7 +36,7 @@
       <guid>2e5eb6d6-8026-42bb-b3a8-6bed461b6f26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cart/Positive Cart - add quantity product</testCaseId>
+      <testCaseId>Test Cases/Cart/Positive Cart - add_reduce quantity product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -50,7 +50,7 @@
       <guid>37544cb5-7564-4073-a898-63f6d4cdcc65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cart/Positive Cart - reduce quantity product</testCaseId>
+      <testCaseId>Test Cases/Cart/Positive Cart - add quantity product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

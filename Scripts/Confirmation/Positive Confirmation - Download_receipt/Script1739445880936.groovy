@@ -17,11 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Product page
+// Cart
+//Checkout
+// Confirmation
+// Verify download file
+import java.nio.file.*
+
 WebUI.openBrowser('')
+
+// Login
 
 WebUI.navigateToUrl('https://www.bstackdemo.com/signin')
 
-// Login
 WebUI.click(findTestObject('StackDemo/Login/select_username'))
 
 WebUI.setText(findTestObject('StackDemo/Login/input_username'), 'demouser')
@@ -36,23 +44,26 @@ WebUI.sendKeys(findTestObject('StackDemo/Login/input_password'), Keys.chord(Keys
 
 WebUI.click(findTestObject('StackDemo/Login/button_Log In'))
 
-// Product page
+// Product Page
+
 WebUI.delay(5)
 
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.bstackdemo.com/?signin=true', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('StackDemo/Cart/Add Product 1 to cart'))
 
+// Cart
+
 WebUI.delay(2)
 
-// Cart
 String cartCount = WebUI.getText(findTestObject('StackDemo/Cart/check_cart'))
 
 WebUI.verifyEqual(cartCount, '1', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/StackDemo/Cart/Checkout'))
 
-//Checkout
+// Checkout
+
 WebUI.delay(5)
 
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.bstackdemo.com/checkout', FailureHandling.CONTINUE_ON_FAILURE)
@@ -65,14 +76,41 @@ WebUI.setText(findTestObject('StackDemo/Checkout/input_Address_addressLine1Input
 
 WebUI.setText(findTestObject('StackDemo/Checkout/input_StateProvince_provinceInput'), 'Jawa Barat')
 
-WebUI.setText(findTestObject('StackDemo/Checkout/input_Postal Code_postCodeInput'), '#$%@!55')
+WebUI.setText(findTestObject('StackDemo/Checkout/input_Postal Code_postCodeInput'), '17550')
 
 WebUI.click(findTestObject('StackDemo/Checkout/button_Submit'))
 
-//Pop up Alert
-String message = WebUI.executeJavaScript('return document.querySelector("#postCodeInput").validationMessage;', null)
+// Confirmation
 
-WebUI.verifyMatch(message, 'Please fill out this field.', false)
+WebUI.delay(5)
+
+WebUI.verifyEqual(WebUI.getUrl(), 'https://www.bstackdemo.com/confirmation', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('StackDemo/Confirmation/Download order receipt'))
+
+// Verify download file
+
+String downloadPath = 'C:\\Users\\diana\\Downloads\\' // Ganti dengan path yang sesuai
+
+String fileName = 'confirmation.pdf' // Sesuaikan nama file
+
+Path filePath = Paths.get(downloadPath, fileName)
+
+println('Menunggu file di-download...')
+
+Thread.sleep(5000) // Tunggu 5 detik untuk memastikan file terunduh
+
+if (Files.exists(filePath)) {
+    println('✅ File berhasil diunduh: ' + filePath.toString())
+
+    println(('Ukuran file: ' + Files.size(filePath)) + ' bytes')
+} else {
+    println('❌ File tidak ditemukan: ' + filePath.toString())
+
+    throw new Exception('File tidak ditemukan di lokasi yang diharapkan.')
+}
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

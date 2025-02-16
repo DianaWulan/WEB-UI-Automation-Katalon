@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Positive Cart - add quantity product</name>
+   <name>Positive Confirmation - ContinueShopping</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7aa83f0b-aba7-489b-94f7-678c8765943a</testCaseGuid>
+   <testCaseGuid>dddaf986-6203-4779-8b95-91489c23c62b</testCaseGuid>
 </TestCaseEntity>

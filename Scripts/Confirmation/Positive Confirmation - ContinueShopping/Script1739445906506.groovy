@@ -86,30 +86,6 @@ WebUI.delay(5)
 
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.bstackdemo.com/confirmation', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('StackDemo/Confirmation/Download order receipt'))
-
-// Verify download file
-
-String downloadPath = 'C:\\Users\\diana\\Downloads\\' // Ganti dengan path yang sesuai
-
-String fileName = 'confirmation.pdf' // Sesuaikan nama file
-
-Path filePath = Paths.get(downloadPath, fileName)
-
-println('Menunggu file di-download...')
-
-Thread.sleep(5000) // Tunggu 5 detik untuk memastikan file terunduh
-
-if (Files.exists(filePath)) {
-    println('✅ File berhasil diunduh: ' + filePath.toString())
-
-    println(('Ukuran file: ' + Files.size(filePath)) + ' bytes')
-} else {
-    println('❌ File tidak ditemukan: ' + filePath.toString())
-
-    throw new Exception('File tidak ditemukan di lokasi yang diharapkan.')
-}
-
 WebUI.click(findTestObject('StackDemo/Checkout/button_Continue Shopping'))
 
 // Product Page

@@ -15,7 +15,7 @@
       <guid>34889648-998c-42b4-aeae-afa9af98573c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Confirmation/Positive Confirmation</testCaseId>
+      <testCaseId>Test Cases/Confirmation/Positive Confirmation - Download_receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

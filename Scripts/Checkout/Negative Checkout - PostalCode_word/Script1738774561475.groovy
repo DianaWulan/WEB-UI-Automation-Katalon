@@ -65,7 +65,8 @@ WebUI.setText(findTestObject('StackDemo/Checkout/input_Address_addressLine1Input
 
 WebUI.setText(findTestObject('StackDemo/Checkout/input_StateProvince_provinceInput'), 'Jawa Barat')
 
-//WebUI.setText(findTestObject('StackDemo/Checkout/input_Postal Code_postCodeInput'), '17550')
+WebUI.setText(findTestObject('StackDemo/Checkout/input_Postal Code_postCodeInput'), 'TujuhBelasLimaRatus')
+
 WebUI.click(findTestObject('StackDemo/Checkout/button_Submit'))
 
 //Pop up Alert
